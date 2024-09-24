@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+        <nav>
+            <div class="logo">
+                <h2>Online Shop</h2>
+            </div>
+            <ul id="menuList">
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">Single Product</a></li>
+                   <li><a href="#">Checkout</a></li>
+                   <li><a href="#">Registration</a></li>
+                   <li><a href="#">Contact with a map</a></li>
+            </ul>
+            <div class="menu-icon">
+                <i class="fa-duotone fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </div>
+        </nav>
+
+        <script>
+            let menuList = document.getElementById("menuList")
+            menuList.style.maxHeight = "0px";
+
+            function toggleMenu(){
+                if(menuList.style.maxHeight == "0px")
+                {
+                    menuList.style.maxHeight = "300px";
+                }
+                else{
+                    menuList.style.maxHeight = "0px";
+                }
+            }
+        </script>
+        <script src="https://kit.fontawesome.com/47e8f978c8.js" crossorigin="anonymous">
+        </script>
+</body>
+</html>
