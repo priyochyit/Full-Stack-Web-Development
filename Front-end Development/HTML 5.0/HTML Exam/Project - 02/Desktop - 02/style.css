@@ -1,0 +1,1379 @@
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.desktop .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 4672px;
+    position: relative;
+}
+
+.desktop .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 702px;
+    top: 0;
+    left: 0;
+    background-image: url(Rectangle\ 2\ \(1\).png);
+    background-size: 100% 100%;
+}
+
+.desktop .overlap-group {
+    position: absolute;
+    width: 591px;
+    height: 654px;
+    top: 48px;
+    left: 86px;
+}
+
+.desktop .abstract-no {
+    position: absolute;
+    width: 591px;
+    height: 333px;
+    top: 12px;
+    left: 0;
+}
+
+.desktop .text-wrapper {
+    position: absolute;
+    height: 18px;
+    top: -10px;
+    left: 477px;
+    font-family: var(--subtitle-2-semibold-14-18-0-2px-font-family);
+    font-weight: var(--subtitle-2-semibold-14-18-0-2px-font-weight);
+    color: var(--accent-default);
+    font-size: var(--subtitle-2-semibold-14-18-0-2px-font-size);
+    letter-spacing: var(--subtitle-2-semibold-14-18-0-2px-letter-spacing);
+    line-height: var(--subtitle-2-semibold-14-18-0-2px-line-height);
+    white-space: nowrap;
+    font-style: var(--subtitle-2-semibold-14-18-0-2px-font-style);
+}
+
+.desktop .text-wrapper-2 {
+    position: absolute;
+    height: 18px;
+    top: -10px;
+    left: 551px;
+    font-family: var(--subtitle-2-semibold-14-18-0-2px-font-family);
+    font-weight: var(--subtitle-2-semibold-14-18-0-2px-font-weight);
+    color: var(--light-black);
+    font-size: var(--subtitle-2-semibold-14-18-0-2px-font-size);
+    letter-spacing: var(--subtitle-2-semibold-14-18-0-2px-letter-spacing);
+    line-height: var(--subtitle-2-semibold-14-18-0-2px-line-height);
+    white-space: nowrap;
+    font-style: var(--subtitle-2-semibold-14-18-0-2px-font-style);
+}
+
+.desktop .text-wrapper-3 {
+    position: absolute;
+    height: 18px;
+    top: -10px;
+    left: 643px;
+    font-family: var(--subtitle-2-semibold-14-18-0-2px-font-family);
+    font-weight: var(--subtitle-2-semibold-14-18-0-2px-font-weight);
+    color: var(--light-black);
+    font-size: var(--subtitle-2-semibold-14-18-0-2px-font-size);
+    letter-spacing: var(--subtitle-2-semibold-14-18-0-2px-letter-spacing);
+    line-height: var(--subtitle-2-semibold-14-18-0-2px-line-height);
+    white-space: nowrap;
+    font-style: var(--subtitle-2-semibold-14-18-0-2px-font-style);
+}
+
+.desktop .text-wrapper-4 {
+    position: absolute;
+    height: 18px;
+    top: -10px;
+    left: 728px;
+    font-family: var(--subtitle-2-semibold-14-18-0-2px-font-family);
+    font-weight: var(--subtitle-2-semibold-14-18-0-2px-font-weight);
+    color: var(--light-black);
+    font-size: var(--subtitle-2-semibold-14-18-0-2px-font-size);
+    letter-spacing: var(--subtitle-2-semibold-14-18-0-2px-letter-spacing);
+    line-height: var(--subtitle-2-semibold-14-18-0-2px-line-height);
+    white-space: nowrap;
+    font-style: var(--subtitle-2-semibold-14-18-0-2px-font-style);
+}
+
+.desktop .e-GENCY {
+    position: absolute;
+    width: 83px;
+    height: 15px;
+    top: 0;
+    left: 27px;
+}
+
+.desktop .saly {
+    position: absolute;
+    width: 580px;
+    height: 580px;
+    top: 74px;
+    left: 5px;
+    background-image: url(Saly-3.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.desktop .textual-default {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 0px;
+    position: absolute;
+    top: 44px;
+    left: 1159px;
+}
+
+.desktop .label {
+    color: var(--accent-default);
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--button-bold-14-18-0-3px-font-family);
+    font-weight: var(--button-bold-14-18-0-3px-font-weight);
+    font-size: var(--button-bold-14-18-0-3px-font-size);
+    text-align: center;
+    letter-spacing: var(--button-bold-14-18-0-3px-letter-spacing);
+    line-height: var(--button-bold-14-18-0-3px-line-height);
+    white-space: nowrap;
+    font-style: var(--button-bold-14-18-0-3px-font-style);
+}
+
+.desktop .contained-default {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 18px;
+    position: absolute;
+    top: 44px;
+    left: 1227px;
+    background-color: #f73c6b;
+    border-radius: 6px;
+}
+
+.desktop .label-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--button-bold-14-18-0-3px-font-family);
+    font-weight: var(--button-bold-14-18-0-3px-font-weight);
+    color: var(--light-white);
+    font-size: var(--button-bold-14-18-0-3px-font-size);
+    text-align: center;
+    letter-spacing: var(--button-bold-14-18-0-3px-letter-spacing);
+    line-height: var(--button-bold-14-18-0-3px-line-height);
+    white-space: nowrap;
+    font-style: var(--button-bold-14-18-0-3px-font-style);
+}
+
+.desktop .p {
+    position: absolute;
+    top: 225px;
+    left: 762px;
+    font-family: "Muli-BoldRoman", Helvetica;
+    font-weight: 700;
+    color: var(--light-black);
+    font-size: 52px;
+    letter-spacing: 0.20px;
+    line-height: 56px;
+}
+
+.desktop .text-wrapper-5 {
+    position: absolute;
+    width: 445px;
+    top: 377px;
+    left: 762px;
+    font-family: "Muli-RegularRoman", Helvetica;
+    font-weight: 400;
+    color: var(--light-gray-dark);
+    font-size: 16px;
+    text-align: justify;
+    letter-spacing: 0.30px;
+    line-height: 22px;
+}
+
+.desktop .outlined-default {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 18px;
+    position: absolute;
+    top: 522px;
+    left: 762px;
+    border: 1px solid;
+    border-color: #f73c6b;
+}
+
+.desktop .label-3 {
+    color: #f73c6b;
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--button-bold-14-18-0-3px-font-family);
+    font-weight: var(--button-bold-14-18-0-3px-font-weight);
+    font-size: var(--button-bold-14-18-0-3px-font-size);
+    text-align: center;
+    letter-spacing: var(--button-bold-14-18-0-3px-letter-spacing);
+    line-height: var(--button-bold-14-18-0-3px-line-height);
+    white-space: nowrap;
+    font-style: var(--button-bold-14-18-0-3px-font-style);
+}
+
+.desktop .overlap-2 {
+    position: absolute;
+    width: 3200px;
+    height: 1311px;
+    top: 2235px;
+    left: -1007px;
+}
+
+.desktop .text-wrapper-6 {
+    position: absolute;
+    width: 445px;
+    top: 155px;
+    left: 1769px;
+    font-family: "Muli-BoldRoman", Helvetica;
+    font-weight: 700;
+    color: var(--light-black);
+    font-size: 52px;
+    letter-spacing: 0.20px;
+    line-height: 56px;
+}
+
+.desktop .overlap-3 {
+    position: absolute;
+    width: 3200px;
+    height: 1231px;
+    top: 80px;
+    left: 0;
+}
+
+.desktop .text-wrapper-7 {
+    width: 445px;
+    top: 255px;
+    left: 1769px;
+    color: var(--light-gray-dark);
+    text-align: justify;
+    position: absolute;
+    font-family: "Muli-RegularRoman", Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.30px;
+    line-height: 22px;
+}
+
+.desktop .saly-2 {
+    position: absolute;
+    width: 472px;
+    height: 472px;
+    top: 0;
+    left: 1128px;
+    background-image: url(Saly-22.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.desktop .rectangle {
+    position: absolute;
+    width: 3200px;
+    height: 453px;
+    top: 582px;
+    left: 0;
+    background-color: #2ED573;
+    opacity: 50%;
+}
+
+.desktop .overlap-group-wrapper {
+    position: absolute;
+    width: 864px;
+    height: 864px;
+    top: 327px;
+    left: 1535px;
+    transform: rotate(180deg);
+}
+
+.desktop .overlap-group-2 {
+    position: relative;
+    width: 1270px;
+    height: 864px;
+}
+
+.desktop .img {
+    position: absolute;
+    width: 864px;
+    height: 864px;
+    top: 0;
+    left: 0;
+    transform: rotate(-180deg);
+    object-fit: cover;
+}
+
+.desktop .text-wrapper-8 {
+    position: absolute;
+    top: 546px;
+    left: 481px;
+    transform: rotate(198deg);
+    font-family: "Muli-BoldRoman", Helvetica;
+    font-weight: 700;
+    color: #ffa3ab;
+    font-size: 49px;
+    letter-spacing: 0.20px;
+    line-height: 56px;
+    white-space: nowrap;
+}
+
+.desktop .grow-your-business {
+    position: absolute;
+    width: 900px;
+    height: 87px;
+    top: 347px;
+    left: 370px;
+    transform: rotate(180deg);
+    font-family: "Muli-BoldRoman", Helvetica;
+    font-weight: 700;
+    color: #4e4e4e;
+    font-size: 37px;
+    letter-spacing: 0.20px;
+    line-height: 56px;
+}
+
+.desktop .field {
+    position: absolute;
+    width: 445px;
+    height: 42px;
+    top: 878px;
+    left: 1129px;
+}
+
+.desktop .light-contained {
+    position: absolute;
+    width: 282px;
+    height: 42px;
+    top: 0;
+    left: 0;
+    background-color: var(--light-white);
+    border-radius: 11px;
+}
+
+.desktop .text-wrapper-9 {
+    position: absolute;
+    width: 250px;
+    height: 20px;
+    top: 10px;
+    left: 16px;
+    font-family: var(--body-2-regular-14-20-0-2px-font-family);
+    font-weight: var(--body-2-regular-14-20-0-2px-font-weight);
+    color: var(--light-gray-dark);
+    font-size: var(--body-2-regular-14-20-0-2px-font-size);
+    letter-spacing: var(--body-2-regular-14-20-0-2px-letter-spacing);
+    line-height: var(--body-2-regular-14-20-0-2px-line-height);
+    font-style: var(--body-2-regular-14-20-0-2px-font-style);
+}
+
+.desktop .label-wrapper {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 18px;
+    position: absolute;
+    top: 0;
+    left: 306px;
+    background-color: #f73c6b;
+    border-radius: 12px;
+}
+
+.desktop .the-best-design-for {
+    position: absolute;
+    width: 984px;
+    top: 1099px;
+    left: 1128px;
+    font-family: "Muli-BoldRoman", Helvetica;
+    font-weight: 700;
+    color: var(--black);
+    font-size: 52px;
+    letter-spacing: -2.34px;
+    line-height: 57.2px;
+}
+
+.desktop .group {
+    position: absolute;
+    width: 567px;
+    height: 28px;
+    top: 1120px;
+    left: 1760px;
+}
+
+.desktop .text-wrapper-10 {
+    width: 524px;
+    left: 0;
+    font-family: "Muli-SemiBoldRoman", Helvetica;
+    font-weight: 600;
+    color: #e5e5e5;
+    text-align: right;
+    text-decoration: underline;
+    position: absolute;
+    top: 0;
+    font-size: 21px;
+    letter-spacing: -0.21px;
+    line-height: 28.4px;
+}
+
+.desktop .arrow {
+    position: absolute;
+    width: 13px;
+    height: 22px;
+    top: 5px;
+    left: 554px;
+}
+
+.desktop .we-scratch-build-and {
+    position: absolute;
+    width: 398px;
+    height: 22px;
+    top: 149px;
+    left: 1770px;
+}
+
+.desktop .doodle {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 0;
+    left: 2200px;
+    background-image: url(doodle-2\ 1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.desktop .overlap-4 {
+    position: absolute;
+    width: 1509px;
+    height: 1311px;
+    top: 717px;
+    left: -69px;
+}
+
+.desktop .overlap-5 {
+    position: absolute;
+    width: 1509px;
+    height: 1193px;
+    top: 118px;
+    left: 0;
+}
+
+.desktop .element {
+    position: absolute;
+    width: 484px;
+    height: 484px;
+    top: 0;
+    left: 887px;
+    object-fit: cover;
+}
+
+.desktop .rectangle-2 {
+    position: absolute;
+    width: 588px;
+    height: 135px;
+    top: 361px;
+    left: 191px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 12px 35px 4px #ab075f0d;
+}
+
+.desktop .text-wrapper-11 {
+    width: 531px;
+    height: 87px;
+    top: 384px;
+    left: 221px;
+    color: #282828;
+    position: absolute;
+    font-family: "Muli-RegularRoman", Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.30px;
+    line-height: 22px;
+}
+
+.desktop .rectangle-3 {
+    position: absolute;
+    width: 1440px;
+    height: 307px;
+    top: 641px;
+    left: 69px;
+    background-color: #FFBD6D;
+}
+
+.desktop .text-wrapper-12 {
+    position: absolute;
+    width: 471px;
+    height: 87px;
+    top: 680px;
+    left: 191px;
+    font-family: "Muli-BoldRoman", Helvetica;
+    font-weight: 700;
+    color: #4e4e4e;
+    font-size: 44px;
+    letter-spacing: 0.20px;
+    line-height: 56px;
+}
+
+.desktop .saly-3 {
+    position: absolute;
+    width: 780px;
+    height: 780px;
+    top: 413px;
+    left: 441px;
+}
+
+.desktop .grow-your-business-2 {
+    position: absolute;
+    width: 471px;
+    height: 87px;
+    top: 265px;
+    left: 544px;
+    font-family: "Muli-BoldRoman", Helvetica;
+    font-weight: 700;
+    color: #4e4e4e;
+    font-size: 44px;
+    letter-spacing: 0.20px;
+    line-height: 56px;
+}
+
+.desktop .text-wrapper-13 {
+    width: 255px;
+    top: 649px;
+    left: -248px;
+    color: #282828;
+    position: absolute;
+    font-family: var(--body-1-regular-16-22-0-3px-font-family);
+    font-weight: var(--body-1-regular-16-22-0-3px-font-weight);
+    font-size: var(--body-1-regular-16-22-0-3px-font-size);
+    letter-spacing: var(--body-1-regular-16-22-0-3px-letter-spacing);
+    line-height: var(--body-1-regular-16-22-0-3px-line-height);
+    font-style: var(--body-1-regular-16-22-0-3px-font-style);
+}
+
+.desktop .text-wrapper-14 {
+    top: 847px;
+    left: -244px;
+    color: #282828;
+    position: absolute;
+    font-family: var(--body-1-regular-16-22-0-3px-font-family);
+    font-weight: var(--body-1-regular-16-22-0-3px-font-weight);
+    font-size: var(--body-1-regular-16-22-0-3px-font-size);
+    letter-spacing: var(--body-1-regular-16-22-0-3px-letter-spacing);
+    line-height: var(--body-1-regular-16-22-0-3px-line-height);
+    font-style: var(--body-1-regular-16-22-0-3px-font-style);
+}
+
+.desktop .text-wrapper-15 {
+    width: 255px;
+    top: 847px;
+    left: 77px;
+    color: #282828;
+    position: absolute;
+    font-family: var(--body-1-regular-16-22-0-3px-font-family);
+    font-weight: var(--body-1-regular-16-22-0-3px-font-weight);
+    font-size: var(--body-1-regular-16-22-0-3px-font-size);
+    letter-spacing: var(--body-1-regular-16-22-0-3px-letter-spacing);
+    line-height: var(--body-1-regular-16-22-0-3px-line-height);
+    font-style: var(--body-1-regular-16-22-0-3px-font-style);
+}
+
+.desktop .text-wrapper-16 {
+    width: 255px;
+    top: 847px;
+    left: 398px;
+    color: #282828;
+    position: absolute;
+    font-family: var(--body-1-regular-16-22-0-3px-font-family);
+    font-weight: var(--body-1-regular-16-22-0-3px-font-weight);
+    font-size: var(--body-1-regular-16-22-0-3px-font-size);
+    letter-spacing: var(--body-1-regular-16-22-0-3px-letter-spacing);
+    line-height: var(--body-1-regular-16-22-0-3px-line-height);
+    font-style: var(--body-1-regular-16-22-0-3px-font-style);
+}
+
+.desktop .text-wrapper-17 {
+    width: 255px;
+    top: 847px;
+    left: 697px;
+    color: #282828;
+    position: absolute;
+    font-family: var(--body-1-regular-16-22-0-3px-font-family);
+    font-weight: var(--body-1-regular-16-22-0-3px-font-weight);
+    font-size: var(--body-1-regular-16-22-0-3px-font-size);
+    letter-spacing: var(--body-1-regular-16-22-0-3px-letter-spacing);
+    line-height: var(--body-1-regular-16-22-0-3px-line-height);
+    font-style: var(--body-1-regular-16-22-0-3px-font-style);
+}
+
+.desktop .text-wrapper-18 {
+    position: absolute;
+    width: 255px;
+    top: 640px;
+    left: 693px;
+    font-family: var(--body-1-regular-16-22-0-3px-font-family);
+    font-weight: var(--body-1-regular-16-22-0-3px-font-weight);
+    color: #282828;
+    font-size: var(--body-1-regular-16-22-0-3px-font-size);
+    letter-spacing: var(--body-1-regular-16-22-0-3px-letter-spacing);
+    line-height: var(--body-1-regular-16-22-0-3px-line-height);
+    font-style: var(--body-1-regular-16-22-0-3px-font-style);
+}
+
+.desktop .iconly-bold-buy {
+    top: 1027px;
+    left: 1132px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+}
+
+.desktop .buy {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    left: 2px;
+    background-image: url(Buy.png);
+    background-size: 100% 100%;
+}
+
+.desktop .doodle-wrapper {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 670px;
+    left: 0;
+}
+
+.desktop .doodle-2 {
+    position: absolute;
+    width: 91px;
+    height: 160px;
+    top: 0;
+    left: 69px;
+    object-fit: cover;
+}
+
+.desktop .saly-4 {
+    position: absolute;
+    width: 780px;
+    height: 780px;
+    top: 413px;
+    left: 441px;
+    object-fit: cover;
+}
+
+.desktop .overlap-6 {
+    position: absolute;
+    width: 746px;
+    height: 283px;
+    top: 0;
+    left: 33px;
+}
+
+.desktop .rectangle-4 {
+    position: absolute;
+    width: 588px;
+    height: 135px;
+    top: 148px;
+    left: 158px;
+    background-color: #4f55dd;
+    border-radius: 15px;
+    box-shadow: 0px 12px 35px 4px #0000000d;
+}
+
+.desktop .text-wrapper-19 {
+    width: 531px;
+    height: 87px;
+    top: 169px;
+    left: 188px;
+    color: #ffffff;
+    position: absolute;
+    font-family: "Muli-RegularRoman", Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.30px;
+    line-height: 22px;
+}
+
+.desktop .img-wrapper {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 0;
+    left: 0;
+}
+
+.desktop .doodle-3 {
+    position: absolute;
+    width: 124px;
+    height: 160px;
+    top: 0;
+    left: 36px;
+    object-fit: cover;
+}
+
+.desktop .div-wrapper {
+    position: absolute;
+    width: 588px;
+    height: 135px;
+    top: 308px;
+    left: 191px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 12px 35px 4px #ab075f0d;
+}
+
+.desktop .text-wrapper-20 {
+    width: 531px;
+    height: 87px;
+    top: 23px;
+    left: 30px;
+    color: #282828;
+    position: absolute;
+    font-family: "Muli-RegularRoman", Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.30px;
+    line-height: 22px;
+}
+
+.desktop .iconly-bold-bag {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 1145px;
+    left: 191px;
+}
+
+.desktop .iconly-bold-discount {
+    top: 2058px;
+    left: 1065px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+}
+
+.desktop .iconly-bold-ticket {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 2058px;
+    left: 124px;
+}
+
+.desktop .iconly-bold-more {
+    left: 449px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 2058px;
+}
+
+.desktop .iconly-bold-more-2 {
+    left: 770px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 2058px;
+}
+
+.desktop .group-2 {
+    position: absolute;
+    width: 377px;
+    height: 398px;
+    top: 3603px;
+    left: 120px;
+}
+
+.desktop .group-wrapper {
+    position: absolute;
+    width: 377px;
+    height: 328px;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+    box-shadow: var(--shadow);
+}
+
+.desktop .group-3 {
+    position: relative;
+    width: 302px;
+    height: 245px;
+    top: 42px;
+    left: 40px;
+}
+
+.desktop .group-4 {
+    height: 245px;
+}
+
+.desktop .group-5 {
+    width: 302px;
+    height: 245px;
+}
+
+.desktop .group-6 {
+    position: relative;
+    width: 306px;
+    height: 245px;
+}
+
+.desktop .lorem-ipsum-dolor {
+    position: absolute;
+    width: 296px;
+    top: 75px;
+    left: 0;
+    font-family: "Muli-RegularRoman", Helvetica;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    line-height: 20.8px;
+}
+
+.desktop .text-wrapper-21 {
+    position: absolute;
+    width: 302px;
+    top: 0;
+    left: 0;
+    font-family: "Muli-SemiBoldRoman", Helvetica;
+    font-weight: 600;
+    color: var(--black);
+    font-size: 44px;
+    letter-spacing: -1.32px;
+    line-height: 48.4px;
+    white-space: nowrap;
+}
+
+.desktop .group-7 {
+    position: absolute;
+    width: 379px;
+    height: 69px;
+    top: 329px;
+    left: 0;
+}
+
+.desktop .overlap-group-3 {
+    position: relative;
+    width: 377px;
+    height: 69px;
+    background-color: #ffd281;
+    border-radius: 0px 0px 12px 12px;
+    box-shadow: var(--shadow);
+}
+
+.desktop .text-wrapper-22 {
+    width: 186px;
+    height: 69px;
+    left: 42px;
+    font-family: "Muli-RegularRoman", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    position: absolute;
+    top: 0;
+    font-size: 21px;
+    letter-spacing: -0.21px;
+    line-height: 28.4px;
+}
+
+.desktop .group-8 {
+    position: absolute;
+    width: 377px;
+    height: 398px;
+    top: 3603px;
+    left: 529px;
+}
+
+.desktop .lorem-ipsum-dolor-2 {
+    width: 297px;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    font-family: "Muli-RegularRoman", Helvetica;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    line-height: 20.8px;
+}
+
+.desktop .overlap-group-4 {
+    position: relative;
+    width: 377px;
+    height: 69px;
+    background-color: #2ed57380;
+    border-radius: 0px 0px 12px 12px;
+    box-shadow: var(--shadow);
+}
+
+.desktop .text-wrapper-23 {
+    position: absolute;
+    width: 186px;
+    height: 69px;
+    top: 0;
+    left: 42px;
+    font-family: "Muli-RegularRoman", Helvetica;
+    font-weight: 400;
+    color: #11121e;
+    font-size: 21px;
+    letter-spacing: -0.21px;
+    line-height: 28.4px;
+}
+
+.desktop .group-9 {
+    position: absolute;
+    width: 377px;
+    height: 398px;
+    top: 3603px;
+    left: 939px;
+}
+
+.desktop .group-10 {
+    position: relative;
+    width: 300px;
+    height: 245px;
+    top: 42px;
+    left: 42px;
+}
+
+.desktop .group-11 {
+    position: relative;
+    width: 304px;
+    height: 245px;
+}
+
+.desktop .lorem-ipsum-dolor-3 {
+    width: 295px;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    font-family: "Muli-RegularRoman", Helvetica;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    line-height: 20.8px;
+}
+
+.desktop .text-wrapper-24 {
+    position: absolute;
+    width: 300px;
+    top: 0;
+    left: 0;
+    font-family: "Muli-SemiBoldRoman", Helvetica;
+    font-weight: 600;
+    color: var(--black);
+    font-size: 44px;
+    letter-spacing: -1.32px;
+    line-height: 48.4px;
+    white-space: nowrap;
+}
+
+.desktop .overlap-group-5 {
+    position: relative;
+    width: 377px;
+    height: 69px;
+    background-color: #ffa3ab;
+    border-radius: 0px 0px 12px 12px;
+    box-shadow: var(--shadow);
+}
+
+.desktop .overlap-7 {
+    position: absolute;
+    width: 1440px;
+    height: 631px;
+    top: 4041px;
+    left: 0;
+}
+
+.desktop .rectangle-5 {
+    position: absolute;
+    width: 1440px;
+    height: 561px;
+    top: 70px;
+    left: 0;
+    background-color: #FFD281;
+}
+
+.desktop .text-wrapper-25 {
+    width: 445px;
+    top: 178px;
+    left: 120px;
+    color: #454546;
+    text-align: justify;
+    position: absolute;
+    font-family: "Muli-RegularRoman", Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.30px;
+    line-height: 22px;
+}
+
+.desktop .e-Gency1 {
+    position: absolute;
+    width: 83px;
+    height: 15px;
+    top: 140px;
+    left: 92px;
+}
+
+.desktop .text-wrapper-27 {
+    position: absolute;
+    width: 168px;
+    height: 26px;
+    top: 177px;
+    left: 730px;
+    font-family: "Muli-SemiBoldRoman", Helvetica;
+    font-weight: 600;
+    color: #555555;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    line-height: 21.6px;
+}
+
+.desktop .text-wrapper-28 {
+    position: absolute;
+    width: 167px;
+    height: 26px;
+    top: 177px;
+    left: 1114px;
+    font-family: "Muli-SemiBoldRoman", Helvetica;
+    font-weight: 600;
+    color: #555555;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    line-height: 21.6px;
+}
+
+.desktop .text-wrapper-29 {
+    position: absolute;
+    width: 168px;
+    height: 26px;
+    top: 229px;
+    left: 730px;
+    font-family: "Muli-SemiBoldRoman", Helvetica;
+    font-weight: 600;
+    color: #555555;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    line-height: 21.6px;
+}
+
+.desktop .text-wrapper-30 {
+    width: 166px;
+    height: 26px;
+    top: 255px;
+    left: 730px;
+    color: #555555;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    line-height: 21.6px;
+    position: absolute;
+    font-family: "Muli-SemiBoldRoman", Helvetica;
+    font-weight: 600;
+}
+
+.desktop .text-wrapper-31 {
+    position: absolute;
+    width: 168px;
+    height: 26px;
+    top: 203px;
+    left: 730px;
+    font-family: "Muli-SemiBoldRoman", Helvetica;
+    font-weight: 600;
+    color: #555555;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    line-height: 21.6px;
+}
+
+.desktop .text-wrapper-32 {
+    position: absolute;
+    width: 168px;
+    height: 26px;
+    top: 177px;
+    left: 922px;
+    font-family: "Muli-SemiBoldRoman", Helvetica;
+    font-weight: 600;
+    color: #555555;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    line-height: 21.6px;
+}
+
+.desktop .text-wrapper-33 {
+    position: absolute;
+    width: 168px;
+    height: 26px;
+    top: 229px;
+    left: 922px;
+    font-family: "Muli-SemiBoldRoman", Helvetica;
+    font-weight: 600;
+    color: #555555;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    line-height: 21.6px;
+}
+
+.desktop .text-wrapper-34 {
+    position: absolute;
+    width: 168px;
+    height: 26px;
+    top: 203px;
+    left: 922px;
+    font-family: "Muli-SemiBoldRoman", Helvetica;
+    font-weight: 600;
+    color: #555555;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    line-height: 21.6px;
+}
+
+.desktop .text-wrapper-35 {
+    position: absolute;
+    width: 167px;
+    height: 26px;
+    top: 112px;
+    left: 923px;
+    opacity: 0.5;
+    font-family: "Muli-SemiBoldRoman", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+    line-height: 24.3px;
+    white-space: nowrap;
+}
+
+.desktop .text-wrapper-36 {
+    position: absolute;
+    width: 168px;
+    height: 26px;
+    top: 112px;
+    left: 730px;
+    opacity: 0.5;
+    font-family: "Muli-SemiBoldRoman", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+    line-height: 24.3px;
+    white-space: nowrap;
+}
+
+.desktop .text-wrapper-37 {
+    position: absolute;
+    width: 146px;
+    height: 26px;
+    top: 112px;
+    left: 1115px;
+    opacity: 0.5;
+    font-family: "Muli-SemiBoldRoman", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+    line-height: 24.3px;
+    white-space: nowrap;
+}
+
+.desktop .vector {
+    position: absolute;
+    width: 1194px;
+    height: 1px;
+    top: 388px;
+    left: 124px;
+    object-fit: cover;
+}
+
+.desktop .text-wrapper-38 {
+    height: 24px;
+    top: 346px;
+    left: 994px;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+    line-height: 24.3px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Muli-SemiBoldRoman", Helvetica;
+    font-weight: 600;
+}
+
+.desktop .text-wrapper-39 {
+    height: 24px;
+    top: 346px;
+    left: 1072px;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+    line-height: 24.3px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Muli-SemiBoldRoman", Helvetica;
+    font-weight: 600;
+}
+
+.desktop .text-wrapper-40 {
+    height: 24px;
+    top: 346px;
+    left: 1155px;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+    line-height: 24.3px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Muli-SemiBoldRoman", Helvetica;
+    font-weight: 600;
+}
+
+.desktop .text-wrapper-41 {
+    position: absolute;
+    height: 24px;
+    top: 346px;
+    left: 1257px;
+    font-family: "Muli-SemiBoldRoman", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+    line-height: 24.3px;
+    white-space: nowrap;
+}
+
+.desktop .text-wrapper-42 {
+    height: 24px;
+    top: 346px;
+    left: 886px;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+    line-height: 24.3px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Muli-SemiBoldRoman", Helvetica;
+    font-weight: 600;
+}
+
+.desktop .group-12 {
+    position: absolute;
+    width: 54px;
+    height: 37px;
+    top: 421px;
+    left: 479px;
+    }
+    .desktop .group-13 {
+    position: absolute;
+    width: 53px;
+    height: 37px;
+    top: 421px;
+    left: 551px;
+    }
+    .desktop .group-14 {
+    position: absolute;
+    width: 53px;
+    height: 37px;
+    top: 421px;
+    left: 622px;
+    }
+    .desktop .group-15 {
+    position: absolute;
+    width: 54px;
+    height: 36px;
+    top: 422px;
+    left: 693px;
+    }
+    .desktop .group-16 {
+    position: absolute;
+    width: 53px;
+    height: 37px;
+    top: 422px;
+    left: 764px;
+    }
+    .desktop .group-17 {
+    position: absolute;
+    width: 53px;
+    height: 37px;
+    top: 422px;
+    left: 836px;
+    }
+    .desktop .group-18 {
+    position: absolute;
+    width: 53px;
+    height: 36px;
+    top: 421px;
+    left: 907px;
+    }
+    
+
+.desktop .shape {
+    position: absolute;
+    width: 40px;
+    height: 6px;
+    top: 23px;
+    left: 5px;
+}
+
+.desktop .terms-of-service {
+    position: absolute;
+    width: 133px;
+    height: 13px;
+    top: 531px;
+    left: 1113px;
+}
+
+.desktop .text-wrapper-43 {
+    position: absolute;
+    width: 456px;
+    top: 523px;
+    left: 120px;
+    opacity: 0.5;
+    font-family: "Muli-RegularRoman", Helvetica;
+    font-weight: 400;
+    color: #494949;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+    line-height: 24.3px;
+    white-space: nowrap;
+}
+
+.desktop .doodle-4 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 430px;
+    left: 1238px;
+    background-image: url(doodle-5\ 1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.desktop .doodle-5 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 371px;
+    left: 0;
+    background-image: url(doodle-6\ 1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.desktop .doodle-6 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 0;
+    left: 1238px;
+    background-image: url(doodle-7\ 1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
