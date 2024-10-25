@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!--Own Css File-->
+    <link rel="stylesheet" href="style.css">
+    <title>PRIYO CHY | Bookmark landing page</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light mx-3 d-flex justify-content-between">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo-bookmark.svg" alt="Bookmark Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Features <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Pricing</a>
+                    <a class="nav-item nav-link" href="#">Contact</a>
+                </div>
+            </div>
+            <button type="button" class="btn btn-login m-sm-auto m-xs-auto align-items-center" data-tilt=''>login</button>
+        </nav>
+    </header>
+    <!--Hero section-->
+    <section class="container-fluid banner mx-3">
+        <div class="row">
+            <!--Banner Content-->
+            <div class="col-6 col-xs-12">
+                <div class="banner-content">
+                    <h2 class="banner-title">A simple Bookmark Manager</h2>
+                    <p class="banner-para">
+                        A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.
+                    </p>
+                    <div class="banner-buttons mt-4 w-100">
+                        <button type="button" class="btn banner-btn1" data-tilt>Get it on Chrome</button>
+                        <button type="button" class="btn banner-btn2" data-tilt>Get it on Firefox</button>
+                    </div>
+                </div>
+            </div>
+            <!--Banner Image (SVG)-->
+            <div class="col-6 col-xs-12">
+                <div class="banner-image">
+                    <img src="illustration-hero.svg" alt="Banner Image" class="image-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--- Start Features Section--->
+    <section class="conatiner-fluid features-area">
+        <!--Features Header-->
+        <div class="features-header w-50 mx-auto text-center">
+            <h2 class="features-title">Features</h2>
+            <p class="features-para">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.
+            </p>
+        </div>
+        <!--Features Body-->
+        <div class="features-body">
+            <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Simple Bookmarking</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#searching" role="tab" aria-controls="profile" aria-selected="false">Speedy Searching</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#sharing" role="tab" aria-controls="contact" aria-selected="false">Easy Sharing</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="container-fluid features-tabs">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="tab-image">
+                                    <img src="illustration-features-tab-1.svg" class='image-fluid' alt="Bookmark svg">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="tab-content">
+                                    <h2 class="title-tab">Bookmark in one click</h2>
+                                    <p class="para-tab">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                                    <button class="btn btn-info" data-tilt>More info</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="searching" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="container-fluid features-tabs">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="tab-image">
+                                    <img src="illustration-features-tab-2.svg" class='image-fluid ml-5' alt="Bookmark svg">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="tab-content">
+                                    <h2 class="title-tab">Intelligent search</h2>
+                                    <p class="para-tab">Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
+                                    <button class="btn btn-info" data-tilt>More info</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="sharing" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="container-fluid features-tabs">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="tab-image">
+                                    <img src="illustration-features-tab-3.svg" class="image-fluid" alt="Bookmark svg">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="tab-content">
+                                    <h2 class="title-tab">Share your bookmarks</h2>
+                                    <p class="para-tab">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
+                                    <button class="btn btn-info" data-tilt>More info</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Download Extensions Section Area-->
+    <section class="container-fluid downloads-area">
+        <!--Header-->
+        <div class="downloads-header container">
+            <h2 class="header-title">
+                Download the extension
+            </h2>
+            <p class="header-para">
+                We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.
+            </p>
+        </div>
+        <!--Cards for representatio the products-->
+        <div class="row container mx-auto">
+            <div class="col-4 col-xs-12">
+                <div class="product-card">
+                    <div class="product-logo">
+                        <img src="logo-chrome.svg" alt='Chrome logo' />
+                    </div>
+                    <div class="product-info">
+                        <h2>Add to chrome</h2>
+                        <p>Minimum version 62</p>
+                    </div>
+                    <div class="dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <button type="button" class="btn product-btn">Add & Install Extension</button>
+                </div>
+            </div>
+            <div class="col-4 col-xs-12">
+                <div class="product-card">
+                    <div class="product-logo">
+                        <img src="logo-firefox.svg" alt='Firefox logo' />
+                    </div>
+                    <div class="product-info">
+                        <h2>Add to Firefox</h2>
+                        <p>Minimum version 55</p>
+                    </div>
+                    <div class="dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <button type="button" class="btn product-btn">Add & Install Extension</button>
+                </div>
+            </div>
+            <div class="col-4 col-xs-12">
+                <div class="product-card">
+                    <div class="product-logo">
+                        <img src="logo-opera.svg" alt='Opera logo' />
+                    </div>
+                    <div class="product-info">
+                        <h2>Add to Opera</h2>
+                        <p>Minimum version 46</p>
+                    </div>
+                    <div class="dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <button type="button" class="btn product-btn">Add & Install Extension</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--- End Features setion--->
+
+    <!--Start Questions asection-->
+    <section class="container-fluid questions-area">
+        <div class="col-12">
+            <div class="box-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.</p>
+            </div>
+        </div>
+        <!--END BOX HEADER-->
+
+        <div class="col-12">
+            <div class="box-body w-100">
+                <div class="row w-50 mx-auto">
+                    <div class="col-12">
+                        <div class="d-flex justify-content-between flex-row-reverse row-line">
+                            <a class="btn btn-arrow" data-toggle="collapse" href="#question1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="fas fa-arrow-down"></i>
+                            </a>
+                            <h3>What is Bookmark?</h3>
+                        </div>
+                        <div class="collapse" id="question1">
+                            <div class="card card-body blue-bg mb-3">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Row 2-->
+                <div class="row w-50 mx-auto">
+                    <div class="col-12">
+                        <div class="d-flex justify-content-between flex-row-reverse row-line">
+                            <a class="btn btn-arrow" data-toggle="collapse" href="#question2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="fas fa-arrow-down"></i>
+                            </a>
+                            <h3>How can I request a new browser?</h3>
+                        </div>
+                        <div class="collapse" id="question2">
+                            <div class="card card-body blue-bg mb-3">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Row 3-->
+                <div class="row w-50 mx-auto">
+                    <div class="col-12">
+                        <div class="d-flex justify-content-between flex-row-reverse row-line">
+                            <a class="btn btn-arrow" data-toggle="collapse" href="#question3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="fas fa-arrow-down"></i>
+                            </a>
+                            <h3>Is there a mobile app?</h3>
+                        </div>
+                        <div class="collapse" id="question3">
+                            <div class="card card-body blue-bg mb-3">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Row 4-->
+                <div class="row w-50 mx-auto">
+                    <div class="col-12">
+                        <div class="d-flex justify-content-between flex-row-reverse row-line">
+                            <a class="btn btn-arrow" data-toggle="collapse" href="#question4" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="fas fa-arrow-down"></i>
+                            </a>
+                            <h3>What about other Chromium browsers?</h3>
+                        </div>
+                        <div class="collapse" id="question4">
+                            <div class="card card-body blue-bg mb-3">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-area-btn">
+                <button type="button" class="btn subscribe-btn mt-5">More Info</button>
+            </div>
+        </div>
+    </section>
+    <!--End Question section-->
+
+    <!--START SUBSCRIBE SECTION-->
+    <div class="container-fluid subscribe-area">
+        <div class="col-12 subscribe-content">
+            <span>35.000+ already joined</span>
+            <h2>Stay up-to-date with what we're doing</h2>
+
+            <!--Form area-->
+            <form action="#" class="mt-5 w-75 d-flex justify-content-center">
+                <input type="email" placeholder="Enter your E-mail address" id="email-input" />
+                <button type="button " class="btn subscribe-btn ">Contact Us</button>
+            </form>
+        </div>
+    </div>
+    <!--END SUBSCRIBE SECTION-->
+    <!--START FOOTER AREA-->
+    <footer class="container-fluid footer-area">
+        <div class="footer-content d-flex align-items-center">
+            <!--footer Logo : Bookmark Logo-->
+            <div class="footer-logo mr-4">
+                <img src="logo-bookmark.svg" alt="Bookmark Logo" class="image-fluid align-slef-start">
+            </div>
+
+            <!--Footer links -->
+            <div class="footer-links flex-grow-1 align-items-center">
+                <ul class="d-flex align-items-baseline" ">
+                    <li class=" links-item "><a href="# ">Features</a></li>
+                    <li class="links-item ml-4 "><a href="# ">Pricing</a></li>
+                    <li class="links-item ml-4 "><a href="# ">Contact</a></li>
+                </ul>
+            </div>
+            <!--Footer Social Media-->
+            <div class="footer-social-media ">
+                <ul class="d-flex align-items-center ">
+                    <li  class="mr-5 ">
+                        <img src="icon-facebook.svg" alt="Facebook icon ">
+                    </li>
+                    <li class="mr-3 ">
+                        <img src="icon-twitter.svg" alt="twitter icon ">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!--END FOOTER AREA-->
+</body>
+</html>

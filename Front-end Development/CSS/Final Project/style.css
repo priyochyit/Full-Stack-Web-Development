@@ -1,0 +1,770 @@
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+header.sticky {
+  background: #fff;
+  -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+header .navbar .btn-login {
+  background: #fa5757;
+  border: none;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  outline: none;
+  padding: 5px 40px;
+  border-radius: 5px;
+  color: #fff;
+  -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+header .navbar .btn-login:hover {
+  background: transparent;
+  border: 1px solid #fa5757;
+  color: #fa5757;
+}
+
+header .navbar .navbar-collapse .navbar-nav > a {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #a1a4af;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+header .navbar .navbar-collapse .navbar-nav > a:hover {
+  color: #fa5757;
+}
+
+.banner .banner-content, .questions-area .row-line .btn-arrow, .questions-area .sub-area-btn, .downloads-area .product-card, .downloads-area .product-card .dots, .subscribe-area, .subscribe-area .subscribe-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: inherit;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  margin-top: 40px;
+}
+
+.banner::before {
+  content: "";
+  width: 550px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 190px;
+  background: #5368df;
+  position: absolute;
+  bottom: 150px;
+  right: -150px;
+  z-index: -1;
+}
+
+.banner .banner-content {
+  max-width: 500px;
+  height: 100%;
+  margin-top: 4rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.banner .banner-content .banner-title {
+  font-family: "Russo One", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  text-transform: uppercase;
+  color: #252b46;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.banner .banner-content .banner-para {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #a1a4af;
+  line-height: 25px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.banner .banner-content .banner-buttons .banner-btn1 {
+  background: #5368df;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  outline: none;
+  padding: 5px 40px;
+  border-radius: 5px;
+  color: #fff;
+  -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  padding: 12px 15px !important;
+  font-size: 13px;
+  font-weight: 500;
+  -webkit-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
+}
+
+.banner .banner-content .banner-buttons .banner-btn1:hover {
+  background: transparent;
+  border: 1px solid #5368df;
+  color: #5368df;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.banner .banner-content .banner-buttons .banner-btn2 {
+  background: #e3e6e8;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  outline: none;
+  padding: 5px 40px;
+  border-radius: 5px;
+  color: #252b46;
+  -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  padding: 12px 15px !important;
+  font-size: 13px !important;
+  font-weight: 500;
+  margin-left: 20px;
+  -webkit-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
+}
+
+.banner .banner-content .banner-buttons .banner-btn2:hover {
+  background: transparent;
+  border: 1px solid #252b46;
+  color: #252b46;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.banner .banner-image {
+  width: 100%;
+  position: relative;
+}
+
+.banner .banner-image img {
+  margin-right: 7rem;
+  position: absolute;
+  top: 2rem;
+  right: -5.9rem;
+}
+
+.banner .banner-content, .questions-area .row-line .btn-arrow, .questions-area .sub-area-btn, .downloads-area .product-card, .downloads-area .product-card .dots, .subscribe-area, .subscribe-area .subscribe-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: inherit;
+}
+
+.questions-area {
+  height: 100vh;
+  margin: 1.5rem auto;
+  position: relative;
+}
+
+.questions-area .box-header {
+  width: 50rem;
+  text-align: center;
+  height: auto;
+  padding: 2.5rem;
+  margin: 1.5rem auto;
+}
+
+.questions-area .box-header h2 {
+  font-family: "Russo One", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  color: #252b46;
+  letter-spacing: 1px;
+}
+
+.questions-area .box-header p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  color: #a1a4af;
+  padding: 0 90px;
+}
+
+.questions-area .row-line {
+  padding: 10px;
+  color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 3px solid #fa5757;
+}
+
+.questions-area .row-line .btn-arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #fff;
+  color: #111;
+  border: none !important;
+  outline: none !important;
+  -webkit-box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+.questions-area .row-line .btn-arrow .fa-arrow-down {
+  color: #252b46;
+  font-size: 22px;
+}
+
+.questions-area .row-line h3 {
+  font-family: "Turret Road", sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  color: #252b46;
+  letter-spacing: 1px;
+}
+
+.questions-area .blue-bg {
+  background: #5368df;
+  color: #fff;
+}
+
+.questions-area .blue-bg p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.questions-area .sub-area-btn {
+  width: 100%;
+}
+
+.questions-area .sub-area-btn .subscribe-btn {
+  margin-top: 2rem;
+  background: #5368df;
+  border: none;
+  font-family: "Russo One", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  outline: none;
+  padding: 5px 40px;
+  border-radius: 5px;
+  color: #FFF;
+  -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  text-transform: uppercase;
+  padding: 12px 20px !important;
+  font-size: 13px;
+  font-weight: 500;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.questions-area .sub-area-btn .subscribe-btn:hover {
+  color: #5368df;
+  background: transparent;
+  border: 2px solid #5368df;
+}
+
+.banner .banner-content, .questions-area .row-line .btn-arrow, .questions-area .sub-area-btn, .downloads-area .product-card, .downloads-area .product-card .dots, .subscribe-area, .subscribe-area .subscribe-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: inherit;
+}
+
+/*------START STYLING FOOTER--------*/
+.footer-area {
+  height: 15vh;
+  background: #252b46;
+  padding: 2rem;
+}
+
+.footer-area .footer-links ul > .links-item > a {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  color: #a1a4af;
+  -webkit-transition: color 200ms ease-in-out;
+  transition: color 200ms ease-in-out;
+  text-decoration: none;
+}
+
+.footer-area .footer-links ul > .links-item > a:hover {
+  color: #fa5757;
+}
+
+.footer-area .footer-social-media ul > li > img {
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+  -webkit-filter: invert(50%);
+          filter: invert(50%);
+}
+
+.footer-area .footer-social-media ul > li > img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-filter: invert(0);
+          filter: invert(0);
+}
+
+/*------END STYLING FOOTER----------*/
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 18px;
+}
+
+::-moz-selection {
+  background: #5368df;
+  color: #fff;
+}
+
+::selection {
+  background: #5368df;
+  color: #fff;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+a,
+a:before,
+a:after,
+a:active {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.banner .banner-content, .questions-area .row-line .btn-arrow, .questions-area .sub-area-btn, .downloads-area .product-card, .downloads-area .product-card .dots, .subscribe-area, .subscribe-area .subscribe-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: inherit;
+}
+
+.features-area {
+  height: 100vh;
+}
+
+.features-area .features-header .features-title {
+  font-family: "Russo One", sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.features-area .features-header .features-para {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  line-height: 25px;
+  color: #a1a4af;
+}
+
+.features-area .features-body {
+  margin: 90px auto;
+}
+
+.features-area .features-body .nav > .nav-item {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  margin-left: 50px;
+}
+
+.features-area .features-body .nav > .nav-item .nav-link {
+  color: #5368df;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.features-area .features-body .nav > .nav-item .nav-link:hover {
+  color: #fa5757;
+}
+
+.features-area .features-body .features-tabs {
+  margin-top: 5rem;
+  height: 90vh;
+  position: relative;
+}
+
+.features-area .features-body .features-tabs::before {
+  content: "";
+  width: 650px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 190px;
+  background: #5368df;
+  position: absolute;
+  bottom: 200px;
+  left: -150px;
+  z-index: -1;
+}
+
+.features-area .features-body .features-tabs .tab-image {
+  width: 100%;
+  position: relative;
+}
+
+.features-area .features-body .features-tabs .tab-image img {
+  position: absolute;
+  top: -3rem;
+  left: 3rem;
+}
+
+.features-area .features-body .features-tabs .tab-content {
+  margin-left: 10px;
+  width: 500px;
+}
+
+.features-area .features-body .features-tabs .tab-content .title-tab {
+  font-family: "Russo One", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #252b46;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.features-area .features-body .features-tabs .tab-content .para-tab {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  line-height: 25px;
+  letter-spacing: 1px;
+  color: #a1a4af;
+  margin: 20px 0 20px 0;
+}
+
+.features-area .features-body .features-tabs .tab-content .btn-info {
+  background: #5368df;
+  border: none;
+  font-family: "Russo One", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  outline: none;
+  padding: 5px 40px;
+  border-radius: 5px;
+  color: #fff;
+  -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  padding: 12px 20px !important;
+  font-size: 13px;
+  font-weight: 500;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.features-area .features-body .features-tabs .tab-content .btn-info:hover {
+  background: transparent;
+  color: #5368df;
+  border: 2px solid #5368df;
+}
+
+.downloads-area {
+  position: relative;
+  margin-top: 12rem;
+  height: 100vh;
+}
+
+.downloads-area .downloads-header {
+  margin: 3rem auto;
+  width: 500px;
+  text-align: center;
+}
+
+.downloads-area .downloads-header .header-title {
+  font-family: "Russo One", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #252b46;
+}
+
+.downloads-area .downloads-header .header-para {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  line-height: 25px;
+  color: #a1a4af;
+}
+
+.downloads-area .product-card {
+  margin: auto;
+  padding: 30px;
+  -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 370px;
+  width: 250px;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: -webkit-transform 200ms ease-in-out;
+  transition: -webkit-transform 200ms ease-in-out;
+  transition: transform 200ms ease-in-out;
+  transition: transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
+}
+
+.downloads-area .product-card:hover {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+
+.downloads-area .product-card .product-logo {
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 2rem;
+}
+
+.downloads-area .product-card .product-logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.downloads-area .product-card .product-info {
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.downloads-area .product-card .product-info h2 {
+  font-family: "Russo One", sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  color: #252b46;
+}
+
+.downloads-area .product-card .product-info p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  color: #a1a4af;
+}
+
+.downloads-area .product-card .dots {
+  margin-top: 0rem;
+}
+
+.downloads-area .product-card .dots .dot {
+  width: 5px;
+  height: 5px;
+  background: #a1a4af;
+  border-radius: 100%;
+  margin: 1rem;
+}
+
+.downloads-area .product-card .product-btn {
+  background: #5368df;
+  border: none;
+  font-family: "Russo One", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  outline: none;
+  padding: 5px 40px;
+  border-radius: 5px;
+  color: #fff;
+  -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  padding: 11px;
+  width: 200px;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 0.7rem;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.downloads-area .product-card .product-btn:hover {
+  background: transparent;
+  color: #5368df;
+  border: 2px solid #5368df;
+}
+
+.subscribe-area {
+  height: 60vh;
+  background: #5368df;
+}
+
+.subscribe-area .subscribe-content {
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.subscribe-area .subscribe-content span {
+  font-family: "Turret Road", sans-serif;
+  font-weight: 500;
+  font-size: 21px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  color: #FFF;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.subscribe-area .subscribe-content h2 {
+  font-family: "Russo One", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  color: #FFF;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 0 14rem;
+}
+
+.subscribe-area .subscribe-content h2::first-letter {
+  font-size: 4.3rem;
+  color: #fa5757;
+}
+
+.subscribe-area .subscribe-content form > input[type='email'] {
+  padding: 10px;
+  margin-left: 10px;
+  width: 400px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-family: "Russo One", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  color: #a1a4af;
+}
+
+.subscribe-area .subscribe-content form > .subscribe-btn {
+  background: #fa5757;
+  border: none;
+  font-family: "Russo One", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  outline: none;
+  padding: 5px 40px;
+  border-radius: 5px;
+  color: #FFF;
+  -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  padding: 10px;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 20px;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.subscribe-area .subscribe-content form > .subscribe-btn:hover {
+  background: #FFF;
+  color: #fa5757;
+}
